@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 59.28 s <<< FAILURE! -- in testRunner.TestRunner
+Search functionality on eBay.Valid search term on eBay #2 -- Time elapsed: 4.474 s <<< FAILURE!
+java.lang.AssertionError: Expected results not found for search term: laptops
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at stepDefinitions.SearchSteps.i_should_see_results_related_to(SearchSteps.java:38)
+	at ✽.I should see results related to "laptops"(file:///Users/kirolosyoussef/SearchAutomationProject/SearchAutomationProject/src/test/resources/features/search_functionality.feature:7)
+

@@ -11,8 +11,7 @@ public class Hooks {
 
     @Before
     public void setUp(){
-        // Set the path to chromedriver executable
-        System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver"); // Update path
+        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }

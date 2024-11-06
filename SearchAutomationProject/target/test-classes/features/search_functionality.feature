@@ -1,15 +1,25 @@
-Feature: Search Functionality Testing
+Feature: Search functionality on eBay
 
-  Scenario Outline: Search with various inputs
-    Given I am on the homepage
-    When I enter "<search_term>" in the search bar
+  Scenario Outline: Valid search term on eBay
+    Given I am on the eBay homepage
+    When I enter "<searchTerm>" in the search bar
     And I click the search button
-    Then I should see "<expected_result>"
+    Then I should see results related to "<searchTerm>"
 
-    Examples:
-      | search_term                  | expected_result                                  |
-      | Nike Air Max                 | Products related to "Nike Air Max" are displayed |
-      | XYZ1234                      | "No results found" message is displayed          |
-      | ''                           | Prompt to enter a search term is displayed       |
-      | '!@#$%^&*'                   | Graceful handling without errors                 |
-      | '<script>alert("XSS")</script>' | Input is sanitized, no script execution       |
+  Examples:
+    | searchTerm   |
+    | shoes        |
+    | laptops      |
+    | Nike shoes   |
+
+  Scenario Outline: Invalid search term on eBay
+    Given I am on the eBay homepage
+    When I enter "<searchTerm>" in the search bar
+    And I click the search button
+    Then I should see a message indicating no results were found
+
+  Examples:
+    | searchTerm    |
+    | !@#$%^&*      |
+    | '; DROP TABLE products;-- |
+    | <script>alert('XSS');</script> |

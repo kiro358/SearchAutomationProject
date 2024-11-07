@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testRunner.TestRunner" time="59.283" tests="6" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testRunner.TestRunner" time="159.535" tests="20" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CA"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/kirolosyoussef/SearchAutomationProject/SearchAutomationProject/target/surefire/surefirebooter-20241105195014862_3.jar /Users/kirolosyoussef/SearchAutomationProject/SearchAutomationProject/target/surefire 2024-11-05T19-50-14_830-jvmRun1 surefire-20241105195014862_1tmp surefire_0-20241105195014862_2tmp"/>
+    <property name="sun.java.command" value="/Users/kirolosyoussef/SearchAutomationProject/SearchAutomationProject/target/surefire/surefirebooter-20241106233032762_3.jar /Users/kirolosyoussef/SearchAutomationProject/SearchAutomationProject/target/surefire 2024-11-06T23-30-32_729-jvmRun1 surefire-20241106233032762_1tmp surefire_0-20241106233032762_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/kirolosyoussef/SearchAutomationProject/SearchAutomationProject/target/test-classes:/Users/kirolosyoussef/SearchAutomationProject/SearchAutomationProject/target/classes:/Users/kirolosyoussef/.m2/repository/org/slf4j/slf4j-simple/1.7.32/slf4j-simple-1.7.32.jar:/Users/kirolosyoussef/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/kirolosyoussef/.m2/repository/org/seleniumhq/selenium/selenium-java/4.12.1/selenium-java-4.12.1.jar:/Users/kirolosyoussef/.m2/repository/org/seleniumhq/selenium/selenium-api/4.12.1/selenium-api-4.12.1.jar:/Users/kirolosyoussef/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.12.1/selenium-chrome-driver-4.12.1.jar:/Users/kirolosyoussef/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/kirolosyoussef/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/kirolosyoussef/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/kirolosyoussef/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/kirolosyoussef/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/kirolosyoussef/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/kirolosyoussef/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/kirolosyoussef/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/kirolosyoussef/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.12.1/selenium-chromium-driver-4.12.1.jar:/Users/kirolosyoussef/.m2/repository/org/seleniumhq/selenium/selenium-json/4.12.1/selenium-json-4.12.1.jar:/Users/kirolosyoussef/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.12.1/selenium-manager-4.12.1.jar:/Users/kirolosyoussef/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v114/4.12.1/selenium-devtools-v114-4.12.1.jar:/Users/kirolosyoussef/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v115/4.12.1/selenium-devtools-v115-4.12.1.jar:/Users/kirolosyoussef/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v116/4.12.1/selenium-devtools-v116-4.12.1.jar:/Users/kirolosyoussef/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.12.1/selenium-devtools-v85-4.12.1.jar:/Users/kirolosyoussef/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.12.1/selenium-edge-driver-4.12.1.jar:/Users/kirolosyoussef/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.12.1/selenium-firefox-driver-4.12.1.jar:/Users/kirolosyoussef/.m2/repository/org/seleniumhq/selenium/selenium-http/4.12.1/selenium-http-4.12.1.jar:/Users/kirolosyoussef/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/kirolosyoussef/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.12.1/selenium-ie-driver-4.12.1.jar:/Users/kirolosyoussef/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.12.1/selenium-remote-driver-4.12.1.jar:/Users/kirolosyoussef/.m2/repository/io/netty/netty-buffer/4.1.96.Final/netty-buffer-4.1.96.Final.jar:/Users/kirolosyoussef/.m2/repository/io/netty/netty-codec-http/4.1.96.Final/netty-codec-http-4.1.96.Final.jar:/Users/kirolosyoussef/.m2/repository/io/netty/netty-codec/4.1.96.Final/netty-codec-4.1.96.Final.jar:/Users/kirolosyoussef/.m2/repository/io/netty/netty-handler/4.1.96.Final/netty-handler-4.1.96.Final.jar:/Users/kirolosyoussef/.m2/repository/io/netty/netty-common/4.1.96.Final/netty-common-4.1.96.Final.jar:/Users/kirolosyoussef/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.96.Final/netty-transport-classes-epoll-4.1.96.Final.jar:/Users/kirolosyoussef/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.96.Final/netty-transport-classes-kqueue-4.1.96.Final.jar:/Users/kirolosyoussef/.m2/repository/io/netty/netty-transport-native-epoll/4.1.96.Final/netty-transport-native-epoll-4.1.96.Final.jar:/Users/kirolosyoussef/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.96.Final/netty-transport-native-kqueue-4.1.96.Final.jar:/Users/kirolosyoussef/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final.jar:/Users/kirolosyoussef/.m2/repository/io/netty/netty-transport/4.1.96.Final/netty-transport-4.1.96.Final.jar:/Users/kirolosyoussef/.m2/repository/io/netty/netty-resolver/4.1.96.Final/netty-resolver-4.1.96.Final.jar:/Users/kirolosyoussef/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/Users/kirolosyoussef/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/Users/kirolosyoussef/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/Users/kirolosyoussef/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/Users/kirolosyoussef/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/Users/kirolosyoussef/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/Users/kirolosyoussef/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/Users/kirolosyoussef/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/Users/kirolosyoussef/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/Users/kirolosyoussef/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/Users/kirolosyoussef/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/Users/kirolosyoussef/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/Users/kirolosyoussef/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/kirolosyoussef/.m2/repository/net/bytebuddy/byte-buddy/1.14.5/byte-buddy-1.14.5.jar:/Users/kirolosyoussef/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/kirolosyoussef/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/kirolosyoussef/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/kirolosyoussef/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/kirolosyoussef/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/kirolosyoussef/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/kirolosyoussef/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/kirolosyoussef/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/kirolosyoussef/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/kirolosyoussef/.m2/repository/org/seleniumhq/selenium/selenium-os/4.12.1/selenium-os-4.12.1.jar:/Users/kirolosyoussef/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/kirolosyoussef/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.12.1/selenium-safari-driver-4.12.1.jar:/Users/kirolosyoussef/.m2/repository/org/seleniumhq/selenium/selenium-support/4.12.1/selenium-support-4.12.1.jar:/Users/kirolosyoussef/.m2/repository/io/cucumber/cucumber-java/6.10.4/cucumber-java-6.10.4.jar:/Users/kirolosyoussef/.m2/repository/io/cucumber/cucumber-core/6.10.4/cucumber-core-6.10.4.jar:/Users/kirolosyoussef/.m2/repository/io/cucumber/cucumber-gherkin/6.10.4/cucumber-gherkin-6.10.4.jar:/Users/kirolosyoussef/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.10.4/cucumber-gherkin-messages-6.10.4.jar:/Users/kirolosyoussef/.m2/repository/io/cucumber/messages/15.0.0/messages-15.0.0.jar:/Users/kirolosyoussef/.m2/repository/io/cucumber/tag-expressions/3.0.1/tag-expressions-3.0.1.jar:/Users/kirolosyoussef/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/kirolosyoussef/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/kirolosyoussef/.m2/repository/io/cucumber/cucumber-plugin/6.10.4/cucumber-plugin-6.10.4.jar:/Users/kirolosyoussef/.m2/repository/io/cucumber/docstring/6.10.4/docstring-6.10.4.jar:/Users/kirolosyoussef/.m2/repository/io/cucumber/html-formatter/13.0.0/html-formatter-13.0.0.jar:/Users/kirolosyoussef/.m2/repository/io/cucumber/create-meta/4.0.0/create-meta-4.0.0.jar:/Users/kirolosyoussef/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/Users/kirolosyoussef/.m2/repository/io/cucumber/cucumber-junit/6.10.4/cucumber-junit-6.10.4.jar:/Users/kirolosyoussef/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/kirolosyoussef/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/kirolosyoussef/SearchAutomationProject/SearchAutomationProject/target/surefire/surefirebooter-20241105195014862_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/kirolosyoussef/SearchAutomationProject/SearchAutomationProject/target/surefire/surefirebooter-20241106233032762_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="23.0.1"/>
@@ -58,251 +58,285 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="Valid search term on eBay #1" classname="Search functionality on eBay" time="6.199">
+  <testcase name="Search with a valid product name" classname="Search functionality on eBay" time="5.331">
     <system-out><![CDATA[
-Scenario Outline: Valid search term on eBay    # src/test/resources/features/search_functionality.feature:11
-  Given I am on the eBay homepage              # stepDefinitions.SearchSteps.i_am_on_the_ebay_homepage()
-  When I enter "shoes" in the search bar       # stepDefinitions.SearchSteps.i_enter_in_the_search_bar(java.lang.String)
-  And I click the search button                # stepDefinitions.SearchSteps.i_click_the_search_button()
-  Then I should see results related to "shoes" # stepDefinitions.SearchSteps.i_should_see_results_related_to(java.lang.String)
+Scenario: Search with a valid product name            # src/test/resources/features/search_functionality.feature:3
+  Given I am on the eBay homepage                     # stepDefinitions.SearchSteps.i_am_on_the_ebay_homepage()
+  When I enter "Nike Air Max" in the search bar       # stepDefinitions.SearchSteps.i_enter_in_the_search_bar(java.lang.String)
+  And I click the search button                       # stepDefinitions.SearchSteps.i_click_the_search_button()
+  Then I should see results related to "Nike Air Max" # stepDefinitions.SearchSteps.i_should_see_results_related_to(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Nov 05, 2024 7:50:16 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Nov 06, 2024 11:30:34 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 130
-Nov 05, 2024 7:50:16 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Nov 06, 2024 11:30:34 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 130.0.6723.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Valid search term on eBay #2" classname="Search functionality on eBay" time="4.474">
-    <failure message="Expected results not found for search term: laptops" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected results not found for search term: laptops
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at stepDefinitions.SearchSteps.i_should_see_results_related_to(SearchSteps.java:38)
-	at ✽.I should see results related to "laptops"(file:///Users/kirolosyoussef/SearchAutomationProject/SearchAutomationProject/src/test/resources/features/search_functionality.feature:7)
-]]></failure>
+  <testcase name="Search with a partial product name" classname="Search functionality on eBay" time="4.267">
     <system-out><![CDATA[
-Scenario Outline: Valid search term on eBay      # src/test/resources/features/search_functionality.feature:12
-  Given I am on the eBay homepage                # stepDefinitions.SearchSteps.i_am_on_the_ebay_homepage()
-  When I enter "laptops" in the search bar       # stepDefinitions.SearchSteps.i_enter_in_the_search_bar(java.lang.String)
-  And I click the search button                  # stepDefinitions.SearchSteps.i_click_the_search_button()
-  Then I should see results related to "laptops" # stepDefinitions.SearchSteps.i_should_see_results_related_to(java.lang.String)
-      java.lang.AssertionError: Expected results not found for search term: laptops
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at stepDefinitions.SearchSteps.i_should_see_results_related_to(SearchSteps.java:38)
-	at ✽.I should see results related to "laptops"(file:///Users/kirolosyoussef/SearchAutomationProject/SearchAutomationProject/src/test/resources/features/search_functionality.feature:7)
-
+Scenario: Search with a partial product name          # src/test/resources/features/search_functionality.feature:9
+  Given I am on the eBay homepage                     # stepDefinitions.SearchSteps.i_am_on_the_ebay_homepage()
+  When I enter "Nike Air" in the search bar           # stepDefinitions.SearchSteps.i_enter_in_the_search_bar(java.lang.String)
+  And I click the search button                       # stepDefinitions.SearchSteps.i_click_the_search_button()
+  Then I should see results related to "Nike Air Max" # stepDefinitions.SearchSteps.i_should_see_results_related_to(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Nov 05, 2024 7:50:21 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Nov 06, 2024 11:30:38 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 130
-Nov 05, 2024 7:50:21 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Nov 06, 2024 11:30:38 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 130.0.6723.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Valid search term on eBay #3" classname="Search functionality on eBay" time="6.809">
+  <testcase name="Search with an invalid/non-existing product" classname="Search functionality on eBay" time="4.003">
     <system-out><![CDATA[
-Scenario Outline: Valid search term on eBay         # src/test/resources/features/search_functionality.feature:13
-  Given I am on the eBay homepage                   # stepDefinitions.SearchSteps.i_am_on_the_ebay_homepage()
-  When I enter "Nike shoes" in the search bar       # stepDefinitions.SearchSteps.i_enter_in_the_search_bar(java.lang.String)
-  And I click the search button                     # stepDefinitions.SearchSteps.i_click_the_search_button()
-  Then I should see results related to "Nike shoes" # stepDefinitions.SearchSteps.i_should_see_results_related_to(java.lang.String)
-]]></system-out>
-    <system-err><![CDATA[Nov 05, 2024 7:50:26 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 130
-Nov 05, 2024 7:50:26 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 130.0.6723.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="Invalid search term on eBay #1" classname="Search functionality on eBay" time="16.913">
-    <system-out><![CDATA[
-Scenario Outline: Invalid search term on eBay                  # src/test/resources/features/search_functionality.feature:23
+Scenario: Search with an invalid/non-existing product          # src/test/resources/features/search_functionality.feature:15
   Given I am on the eBay homepage                              # stepDefinitions.SearchSteps.i_am_on_the_ebay_homepage()
-  When I enter "!@#$%^&*" in the search bar                    # stepDefinitions.SearchSteps.i_enter_in_the_search_bar(java.lang.String)
+  When I enter "XYZ12345" in the search bar                    # stepDefinitions.SearchSteps.i_enter_in_the_search_bar(java.lang.String)
   And I click the search button                                # stepDefinitions.SearchSteps.i_click_the_search_button()
   Then I should see a message indicating no results were found # stepDefinitions.SearchSteps.i_should_see_a_message_indicating_no_results_were_found()
 ]]></system-out>
-    <system-err><![CDATA[Nov 05, 2024 7:50:33 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Nov 06, 2024 11:30:43 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 130
-Nov 05, 2024 7:50:33 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Nov 06, 2024 11:30:43 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 130.0.6723.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for at least one condition to be valid: presence of element located by: By.cssSelector: .s-item__title || presence of element located by: By.xpath: //*[contains(text(), 'No exact matches found')] (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
-	at pages.SearchResultsPage.isNoResultsMessageDisplayed(SearchResultsPage.java:71)
-	at stepDefinitions.SearchSteps.i_should_see_a_message_indicating_no_results_were_found(SearchSteps.java:53)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'No exact matches found')]"}
-  (Session info: chrome=130.0.6723.117)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cf54b221a9a4a61dcddaa32e9c621ddb, findElement {using=xpath, value=//*[contains(text(), 'No exact matches found')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.93 (dbcf0550c05e..., userDataDir: /var/folders/9z/k6gw414x3tz...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50998}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50998/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cf54b221a9a4a61dcddaa32e9c621ddb
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
-	at org.openqa.selenium.support.ui.ExpectedConditions$49.apply(ExpectedConditions.java:1396)
-	at org.openqa.selenium.support.ui.ExpectedConditions$49.apply(ExpectedConditions.java:1390)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
-	... 44 more
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid search term on eBay #2" classname="Search functionality on eBay" time="15.179">
+  <testcase name="Search with empty input" classname="Search functionality on eBay" time="3.594">
     <system-out><![CDATA[
-Scenario Outline: Invalid search term on eBay                  # src/test/resources/features/search_functionality.feature:24
-  Given I am on the eBay homepage                              # stepDefinitions.SearchSteps.i_am_on_the_ebay_homepage()
-  When I enter "'; DROP TABLE products;--" in the search bar   # stepDefinitions.SearchSteps.i_enter_in_the_search_bar(java.lang.String)
-  And I click the search button                                # stepDefinitions.SearchSteps.i_click_the_search_button()
-  Then I should see a message indicating no results were found # stepDefinitions.SearchSteps.i_should_see_a_message_indicating_no_results_were_found()
+Scenario: Search with empty input       # src/test/resources/features/search_functionality.feature:21
+  Given I am on the eBay homepage       # stepDefinitions.SearchSteps.i_am_on_the_ebay_homepage()
+  When I leave the search bar empty     # stepDefinitions.SearchSteps.i_leave_the_search_bar_empty()
+  And I click the search button         # stepDefinitions.SearchSteps.i_click_the_search_button()
+  Then I should see the categories page # stepDefinitions.SearchSteps.i_should_see_the_categories_page()
 ]]></system-out>
-    <system-err><![CDATA[Nov 05, 2024 7:50:50 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Nov 06, 2024 11:30:47 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 130
-Nov 05, 2024 7:50:50 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Nov 06, 2024 11:30:47 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 130.0.6723.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for at least one condition to be valid: presence of element located by: By.cssSelector: .s-item__title || presence of element located by: By.xpath: //*[contains(text(), 'No exact matches found')] (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
-	at pages.SearchResultsPage.isNoResultsMessageDisplayed(SearchResultsPage.java:71)
-	at stepDefinitions.SearchSteps.i_should_see_a_message_indicating_no_results_were_found(SearchSteps.java:53)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'No exact matches found')]"}
-  (Session info: chrome=130.0.6723.117)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [10083fe08fb948aa4d1bb526701b1d47, findElement {using=xpath, value=//*[contains(text(), 'No exact matches found')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.93 (dbcf0550c05e..., userDataDir: /var/folders/9z/k6gw414x3tz...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51173/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 10083fe08fb948aa4d1bb526701b1d47
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
-	at org.openqa.selenium.support.ui.ExpectedConditions$49.apply(ExpectedConditions.java:1396)
-	at org.openqa.selenium.support.ui.ExpectedConditions$49.apply(ExpectedConditions.java:1390)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
-	... 44 more
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid search term on eBay #3" classname="Search functionality on eBay" time="9.506">
+  <testcase name="Search with special characters" classname="Search functionality on eBay" time="3.889">
     <system-out><![CDATA[
-Scenario Outline: Invalid search term on eBay                     # src/test/resources/features/search_functionality.feature:25
+Scenario: Search with special characters              # src/test/resources/features/search_functionality.feature:27
+  Given I am on the eBay homepage                     # stepDefinitions.SearchSteps.i_am_on_the_ebay_homepage()
+  When I enter "!@#$%^&*" in the search bar           # stepDefinitions.SearchSteps.i_enter_in_the_search_bar(java.lang.String)
+  And I click the search button                       # stepDefinitions.SearchSteps.i_click_the_search_button()
+  Then the input is handled gracefully without errors # stepDefinitions.SearchSteps.the_input_is_handled_gracefully_without_errors()
+]]></system-out>
+    <system-err><![CDATA[Nov 06, 2024 11:30:50 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 130
+Nov 06, 2024 11:30:50 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 130.0.6723.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="SQL Injection attempt" classname="Search functionality on eBay" time="2.581">
+    <system-out><![CDATA[
+Scenario: SQL Injection attempt                              # src/test/resources/features/search_functionality.feature:33
+  Given I am on the eBay homepage                            # stepDefinitions.SearchSteps.i_am_on_the_ebay_homepage()
+  When I enter "'; DROP TABLE products;--" in the search bar # stepDefinitions.SearchSteps.i_enter_in_the_search_bar(java.lang.String)
+  And I click the search button                              # stepDefinitions.SearchSteps.i_click_the_search_button()
+  Then the input is sanitized and no security breach occurs  # stepDefinitions.SearchSteps.the_input_is_sanitized_and_no_security_breach_occurs()
+]]></system-out>
+    <system-err><![CDATA[Nov 06, 2024 11:30:54 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 130
+Nov 06, 2024 11:30:54 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 130.0.6723.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Cross-Site Scripting (XSS) attack attempt" classname="Search functionality on eBay" time="3.939">
+    <system-out><![CDATA[
+Scenario: Cross-Site Scripting (XSS) attack attempt               # src/test/resources/features/search_functionality.feature:39
   Given I am on the eBay homepage                                 # stepDefinitions.SearchSteps.i_am_on_the_ebay_homepage()
   When I enter "<script>alert('XSS');</script>" in the search bar # stepDefinitions.SearchSteps.i_enter_in_the_search_bar(java.lang.String)
   And I click the search button                                   # stepDefinitions.SearchSteps.i_click_the_search_button()
-  Then I should see a message indicating no results were found    # stepDefinitions.SearchSteps.i_should_see_a_message_indicating_no_results_were_found()
+  Then the input is sanitized and the script is not executed      # stepDefinitions.SearchSteps.the_input_is_sanitized_and_the_script_is_not_executed()
 ]]></system-out>
-    <system-err><![CDATA[Nov 05, 2024 7:51:05 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Nov 06, 2024 11:30:57 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 130
-Nov 05, 2024 7:51:05 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Nov 06, 2024 11:30:57 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 130.0.6723.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Search suggestions appear as typing" classname="Search functionality on eBay" time="5.095">
+    <system-out><![CDATA[
+Scenario: Search suggestions appear as typing        # src/test/resources/features/search_functionality.feature:45
+  Given I am on the eBay homepage                    # stepDefinitions.SearchSteps.i_am_on_the_ebay_homepage()
+  When I start typing "Lapto" in the search bar      # stepDefinitions.SearchSteps.i_start_typing_in_the_search_bar(java.lang.String)
+  Then autocomplete suggestions like "Laptop" appear # stepDefinitions.SearchSteps.autocomplete_suggestions_like_appear(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Nov 06, 2024 11:31:01 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 130
+Nov 06, 2024 11:31:01 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 130.0.6723.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Search results pagination" classname="Search functionality on eBay" time="7.955">
+    <system-out><![CDATA[
+Scenario: Search results pagination              # src/test/resources/features/search_functionality.feature:50
+  Given I am on the eBay homepage                # stepDefinitions.SearchSteps.i_am_on_the_ebay_homepage()
+  When I search for "Shoes"                      # stepDefinitions.SearchSteps.i_search_for(java.lang.String)
+  And I navigate to the second page of results   # stepDefinitions.SearchSteps.i_navigate_to_the_second_page_of_results()
+  Then I should see additional relevant products # stepDefinitions.SearchSteps.i_should_see_additional_relevant_products()
+]]></system-out>
+    <system-err><![CDATA[Nov 06, 2024 11:31:06 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 130
+Nov 06, 2024 11:31:06 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 130.0.6723.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Filtering search results" classname="Search functionality on eBay" time="7.514">
+    <system-out><![CDATA[
+Scenario: Filtering search results       # src/test/resources/features/search_functionality.feature:56
+  Given I am on the eBay homepage        # stepDefinitions.SearchSteps.i_am_on_the_ebay_homepage()
+  When I search for "Camera"             # stepDefinitions.SearchSteps.i_search_for(java.lang.String)
+  And I apply filter Brand "Canon"       # stepDefinitions.SearchSteps.i_apply_filter(java.lang.String)
+  Then I should see only "Canon" cameras # stepDefinitions.SearchSteps.i_should_see_only_canon_cameras(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Nov 06, 2024 11:31:14 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 130
+Nov 06, 2024 11:31:14 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 130.0.6723.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Sorting search results" classname="Search functionality on eBay" time="60.609">
+    <system-out><![CDATA[
+Scenario: Sorting search results                         # src/test/resources/features/search_functionality.feature:62
+  Given I am on the eBay homepage                        # stepDefinitions.SearchSteps.i_am_on_the_ebay_homepage()
+  When I search for "Headphones"                         # stepDefinitions.SearchSteps.i_search_for(java.lang.String)
+  And I sort results by "Price + Shipping: lowest first" # stepDefinitions.SearchSteps.i_sort_results_by(java.lang.String)
+  Then products are sorted accordingly                   # stepDefinitions.SearchSteps.products_are_sorted_accordingly()
+]]></system-out>
+    <system-err><![CDATA[Nov 06, 2024 11:31:21 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 130
+Nov 06, 2024 11:31:21 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 130.0.6723.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Case sensitivity check" classname="Search functionality on eBay" time="4.42">
+    <system-out><![CDATA[
+Scenario: Case sensitivity check                                          # src/test/resources/features/search_functionality.feature:68
+  Given I am on the eBay homepage                                         # stepDefinitions.SearchSteps.i_am_on_the_ebay_homepage()
+  When I enter "APPLE Watch" in the search bar                            # stepDefinitions.SearchSteps.i_enter_in_the_search_bar(java.lang.String)
+  And I click the search button                                           # stepDefinitions.SearchSteps.i_click_the_search_button()
+  Then the search is case-insensitive and relevant products are displayed # stepDefinitions.SearchSteps.the_search_is_case_insensitive_and_relevant_products_are_displayed()
+]]></system-out>
+    <system-err><![CDATA[Nov 06, 2024 11:32:22 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 130
+Nov 06, 2024 11:32:22 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 130.0.6723.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Handling misspelled words" classname="Search functionality on eBay" time="4.489">
+    <system-out><![CDATA[
+Scenario: Handling misspelled words               # src/test/resources/features/search_functionality.feature:74
+  Given I am on the eBay homepage                 # stepDefinitions.SearchSteps.i_am_on_the_ebay_homepage()
+  When I enter "iphnoe" in the search bar         # stepDefinitions.SearchSteps.i_enter_in_the_search_bar(java.lang.String)
+  And I click the search button                   # stepDefinitions.SearchSteps.i_click_the_search_button()
+  Then I should be suggested results for "iphone" # stepDefinitions.SearchSteps.i_should_be_suggested(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Nov 06, 2024 11:32:26 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 130
+Nov 06, 2024 11:32:26 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 130.0.6723.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Search using synonyms" classname="Search functionality on eBay" time="4.472">
+    <system-out><![CDATA[
+Scenario: Search using synonyms                                        # src/test/resources/features/search_functionality.feature:80
+  Given I am on the eBay homepage                                      # stepDefinitions.SearchSteps.i_am_on_the_ebay_homepage()
+  When I enter "Mobile Phone" in the search bar                        # stepDefinitions.SearchSteps.i_enter_in_the_search_bar(java.lang.String)
+  And I click the search button                                        # stepDefinitions.SearchSteps.i_click_the_search_button()
+  Then products listed under "Cell Phones & Smartphones" are displayed # stepDefinitions.SearchSteps.products_listed_under_are_displayed(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Nov 06, 2024 11:32:31 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 130
+Nov 06, 2024 11:32:31 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 130.0.6723.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Advanced search options" classname="Search functionality on eBay" time="6.95">
+    <system-out><![CDATA[
+Scenario: Advanced search options                  # src/test/resources/features/search_functionality.feature:86
+  Given I am on the eBay homepage                  # stepDefinitions.SearchSteps.i_am_on_the_ebay_homepage()
+  When I enter "Golf Set" in the search bar        # stepDefinitions.SearchSteps.i_enter_in_the_search_bar(java.lang.String)
+  And I click the search button                    # stepDefinitions.SearchSteps.i_click_the_search_button()
+  When I use advanced search                       # stepDefinitions.SearchSteps.i_use_advanced_search()
+  And I set criteria: "Price under $500"           # stepDefinitions.SearchSteps.i_set_criteria(java.lang.String)
+  Then I should see products matching the criteria # stepDefinitions.SearchSteps.i_should_see_products_matching_the_criteria()
+]]></system-out>
+    <system-err><![CDATA[Nov 06, 2024 11:32:35 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 130
+Nov 06, 2024 11:32:35 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 130.0.6723.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Search within a category" classname="Search functionality on eBay" time="4.542">
+    <system-out><![CDATA[
+Scenario: Search within a category                                   # src/test/resources/features/search_functionality.feature:94
+  Given I am on the eBay homepage                                    # stepDefinitions.SearchSteps.i_am_on_the_ebay_homepage()
+  When I navigate to "Electronics" category                          # stepDefinitions.SearchSteps.i_navigate_to_category(java.lang.String)
+  And I search for "Tablet"                                          # stepDefinitions.SearchSteps.i_search_for(java.lang.String)
+  Then products listed under "Tablets & eBook Readers" are displayed # stepDefinitions.SearchSteps.products_listed_under_are_displayed(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Nov 06, 2024 11:32:42 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 130
+Nov 06, 2024 11:32:42 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 130.0.6723.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Recent searches are displayed" classname="Search functionality on eBay" time="7.283">
+    <system-out><![CDATA[
+Scenario: Recent searches are displayed           # src/test/resources/features/search_functionality.feature:100
+  Given I have performed several searches         # stepDefinitions.SearchSteps.i_have_performed_several_searches()
+  When I click on the search bar                  # stepDefinitions.SearchSteps.i_click_on_the_search_bar()
+  Then I should see a list of recent search terms # stepDefinitions.SearchSteps.i_should_see_a_list_of_recent_search_terms()
+]]></system-out>
+    <system-err><![CDATA[Nov 06, 2024 11:32:47 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 130
+Nov 06, 2024 11:32:47 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 130.0.6723.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Multi-language search support" classname="Search functionality on eBay" time="4.556">
+    <system-out><![CDATA[
+Scenario: Multi-language search support           # src/test/resources/features/search_functionality.feature:105
+  Given I am on the eBay homepage                 # stepDefinitions.SearchSteps.i_am_on_the_ebay_homepage()
+  When I enter "鞋子" in the search bar             # stepDefinitions.SearchSteps.i_enter_in_the_search_bar(java.lang.String)
+  And I click the search button                   # stepDefinitions.SearchSteps.i_click_the_search_button()
+  Then I should see products relevant to the term # stepDefinitions.SearchSteps.i_should_see_products_relevant_to_the_term()
+]]></system-out>
+    <system-err><![CDATA[Nov 06, 2024 11:32:54 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 130
+Nov 06, 2024 11:32:54 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 130.0.6723.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Accessibility via keyboard" classname="Search functionality on eBay" time="7.572">
+    <system-out><![CDATA[
+Scenario: Accessibility via keyboard                 # src/test/resources/features/search_functionality.feature:111
+  Given I am on the eBay homepage                    # stepDefinitions.SearchSteps.i_am_on_the_ebay_homepage()
+  When I use Tab to focus on the search bar          # stepDefinitions.SearchSteps.i_use_tab_to_focus_on_the_search_bar()
+  And I enter "Book"                                 # stepDefinitions.SearchSteps.i_enter(java.lang.String)
+  And I press Enter                                  # stepDefinitions.SearchSteps.i_press_enter()
+  Then the search executes without mouse interaction # stepDefinitions.SearchSteps.the_search_executes_without_mouse_interaction()
+]]></system-out>
+    <system-err><![CDATA[Nov 06, 2024 11:32:59 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 130
+Nov 06, 2024 11:32:59 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 130.0.6723.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Mobile responsiveness" classname="Search functionality on eBay" time="2.979">
+    <system-out><![CDATA[
+@Mobile
+Scenario: Mobile responsiveness                       # src/test/resources/features/search_functionality.feature:119
+  Given I access the site on a mobile device          # stepDefinitions.SearchSteps.i_access_the_site_on_a_mobile_device()
+  When I enter "Nike Air Max" in the search bar       # stepDefinitions.SearchSteps.i_enter_in_the_search_bar(java.lang.String)
+  And I click the search button                       # stepDefinitions.SearchSteps.i_click_the_search_button()
+  Then I should see results related to "Nike Air Max" # stepDefinitions.SearchSteps.i_should_see_results_related_to(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Nov 06, 2024 11:33:06 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 130
+Nov 06, 2024 11:33:06 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 130.0.6723.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>

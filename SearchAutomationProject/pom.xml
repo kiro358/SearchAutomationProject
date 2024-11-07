@@ -53,6 +53,9 @@
         <configuration>
           <source>8</source>
           <target>8</target>
+          <environmentVariables>
+              <CUCUMBER_PUBLISH_TOKEN>5fccc7c4-66a7-4778-ae6f-fc2b3527ca26</CUCUMBER_PUBLISH_TOKEN>
+          </environmentVariables>
         </configuration>
       </plugin>
     </plugins>

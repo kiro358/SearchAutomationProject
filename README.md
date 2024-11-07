@@ -1,4 +1,4 @@
-#eBay Search Functionality Testing 
+#eBay Search Functionality Testing# 
 
 ### **Project Description**
 This project involves testing the **search functionality of eBay**, ensuring that it works seamlessly across different scenarios, including valid and invalid inputs, security vulnerabilities, and advanced search features. The focus is on validating the user experience, security, and responsiveness of the search feature, both on desktop and mobile platforms. The test cases and scenarios are designed to handle edge cases, user input variability, and different contexts, such as filtering, sorting, and accessibility.
